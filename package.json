@@ -1,0 +1,17 @@
+{
+  "name": "mybet21-betfair-scraper",
+  "version": "1.0.0",
+  "description": "Betfair Odds Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emanuele Bertuol",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chromedriver": "^96.0.0",
+    "jsdom": "^19.0.0",
+    "selenium-webdriver": "^4.1.0"
+  }
+}
