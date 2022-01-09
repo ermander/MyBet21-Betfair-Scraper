@@ -72,6 +72,8 @@ const betfairMainScraper = async (
       sleep
     );
     const odds = mergeOdds(oneXTwoOdds, underOverOdds, goalNoGoalOdds);
+    await driver.close()
+    await driver.quit()
     return odds;
   } catch (error) {
     console.log(error);

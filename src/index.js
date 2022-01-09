@@ -23,9 +23,8 @@ const main = async () => {
         until,
         sleep
       );
-      console.log(betfairExchangeOdds);
       await axios.post(
-        'http://localhost:3004/odds/post-betfair-exchange-odds',
+        'https://mybet21-fullslotnew-be.herokuapp.com/odds/post-betfair-exchange-odds',
         betfairExchangeOdds
       );
       /*
